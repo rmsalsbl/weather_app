@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:html';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
@@ -73,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
     } catch (error) {
       setState(() {
         errorMessage =
-            'Maaf kota yang anda cari tidak ada karena anda belum mempunyai ayang:( kaceiann dechh';
+            'Maaf kota yang anda cari tidak ada ';
       });
     }
   }
